@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page2">
+
+    <TextView
+        android:layout_width="1100px"
+        android:layout_height="250px"
+        android:text="Pharmacy Management System"
+        android:textAlignment="center"
+        android:layout_marginTop="-10dp"
+        android:paddingTop="80px"
+        android:textSize="60px"
+        tools:ignore="MissingConstraints"
+        android:textColor="@color/white"
+        android:background="@drawable/shadow"
+        />
+
+    <Button
+        android:id="@+id/doctor"
+        android:layout_width="750px"
+        android:layout_height="160px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="520px"
+        android:background="@drawable/shadow"
+        android:text="Doctors"
+        android:textColor="@color/white"
+        android:textSize="60px"
+        app:icon="@drawable/ic_doctor"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="800px"
+        android:layout_marginTop="550px"
+        android:background="@color/white"
+        android:text="10"
+        android:textColor="@color/black"
+        android:textSize="60px" />
+
+    <Button
+        android:id="@+id/product"
+        android:layout_width="750px"
+        android:layout_height="160px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="710px"
+        android:background="@drawable/shadow"
+        android:text="Products"
+        android:textColor="@color/white"
+        android:textSize="60px"
+        app:icon="@drawable/ic_product" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="800px"
+        android:layout_marginTop="750px"
+        android:background="@color/white"
+        android:text="100"
+        android:textColor="@color/black"
+        android:textSize="60px"
+       />
+
+    <Button
+        android:layout_width="750px"
+        android:layout_height="160px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1080px"
+        android:background="@drawable/shadow"
+        android:text="Add Doctors"
+        android:textColor="@color/white"
+        android:textSize="60px"
+        app:icon="@drawable/ic_add_doctors"
+        android:id="@+id/add_doctor"/>
+
+    <Button
+        android:layout_width="750px"
+        android:layout_height="160px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1270px"
+        android:background="@drawable/shadow"
+        android:text="Add Products"
+        android:textColor="@color/white"
+        android:textSize="60px"
+        app:icon="@drawable/ic_add_product"
+        android:id="@+id/add_product"/>
+
+
+
+
+
+
+
+
+</RelativeLayout>

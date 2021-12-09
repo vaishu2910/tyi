@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="-50px"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="1100px"
+        android:layout_height="250px"
+        android:text="Pharmacy Management System"
+        android:textAlignment="center"
+        android:paddingTop="80px"
+        android:textSize="60px"
+        tools:ignore="MissingConstraints"
+        android:textColor="@color/white"
+        android:background="@drawable/shadow"
+        android:id="@+id/page3"
+        />
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv"
+        android:layout_marginTop="100dp"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        />
+
+
+
+
+
+</RelativeLayout>
